@@ -49,9 +49,9 @@ body {
   grid-template-areas:
     "ecr ecr ecr ecr"
     "clr_c r_r r_l div"
+    "sept huit neuf fois"
     "quatre cinq six moins"
     "un deux trois plus"
-    "sept huit neuf fois"
     "btn_plus_moins zero point egal";
 }
 
