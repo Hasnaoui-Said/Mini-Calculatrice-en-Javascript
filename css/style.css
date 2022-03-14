@@ -119,19 +119,19 @@ body {
   grid-area: neuf;
 }
 
-.ecran {
+.ecranAll {
   grid-area: ecr;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
-    "h h h oper"
-    "h h h res"
-    "h h h tag_x";
+    "oper oper oper oper"
+    "res res res res"
+    "tag_x tag_x tag_x tag_x";
   border-bottom: rgb(10, 21, 52, 0.25) solid 2px;
   height: 150px;
 }
-.operation {
+.operationOpp {
   grid-area: oper;
   width: 100%;
   height: 20px;
@@ -139,7 +139,7 @@ body {
 }
 .resultat {
   grid-area: res;
-  color: rgb(10, 21, 52, .5);
+  color: rgb(10, 21, 52, 0.5);
 }
 .tag-x {
   grid-area: tag_x;
@@ -153,7 +153,7 @@ hr {
 
   color: rgb(10, 21, 52, 0.5);
 }
-.operation,
+.operationOpp,
 .resultat,
 .tag-x {
   background: transparent;
